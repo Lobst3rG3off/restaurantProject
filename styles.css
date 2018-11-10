@@ -13,4 +13,23 @@ img {
 	max-width: 100%;
 }
  
+.hero {
+	background-image: url(assets/image-1.jpeg);
+	background-size: cover;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.heroIcon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foodPassion {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
  
