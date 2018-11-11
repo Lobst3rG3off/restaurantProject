@@ -9,6 +9,32 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     margin: 0 auto;
 }
 
+/* HERO */
+/* Flex Logic */
+
+.flex-container.hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    }
+
+.hero .flex-item.left {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.hero .flex-item.right {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+	}
+	
+/* End Flex Logic */
+
 img {
 	max-width: 100%;
 }
