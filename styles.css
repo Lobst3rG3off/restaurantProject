@@ -8,12 +8,73 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     max-width:960px;
     margin: 0 auto;
 }
+/*global effects*/
 
-
-nav {
-	
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
+
+span {
+	color: #e1560e
+}
+
+h2 {
+	font-family: 'Great Vibes', cursive;
+	color: white;
+	letter-spacing: 2px;
+}
+
+
+/*nav bar*/
+nav {
+	width: 15%;
+	background: #23292c;
+}
+
+.navLinks ul li a {
+	display: flex;
+	flex-direction: column; 
+	text-decoration: none;
+}
+
+.navLinks ul li	 {
+	justify-content: space-between;
+	margin: 30px;
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+}
+
+ul li {
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.twitterIcon {
+	color: #e1560e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: lightgray;
+
+}
+/*nav link end*/
 /* HERO */
 /* Flex Logic */
 
@@ -30,6 +91,7 @@ nav {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
+    font-family: 'Open Sans', sans-serif;
     }
 
 .hero .flex-item.right {
@@ -38,6 +100,9 @@ nav {
     align-self: auto;
 	}
 	
+
+
+
 /* End Flex Logic */
 
 
@@ -56,6 +121,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-bottom: 20px;
 }
 
 .foodPassion {
@@ -64,4 +130,188 @@ img {
 	justify-content: center;
 }
 
+.cookingSince {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button {
+	font-size:19px;
+	font-weight:  700;  
+	color: #333333;
+	background-color: #e1560e;
+	border-radius: 5px;
+	padding: 10px 30px;
+	margin: 0 auto;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 21%;
+	margin-top: 25px;
+}
+/*end of cover*/
+
+/*about us section*/
+.contentWrapper {
+	width: 100%;
+	display: block;
+
+}
+
+
+#about .flex-container {
+	
+}
  
+
+#about {
+	    height: 529px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+ .bio {
+    float: left;
+    display: block;
+    background: #eae5d6;
+    position: relative;
+    width: 50%;
+    height: 549px;
+ }
+
+ .bio-info {
+    float: left;
+    width: 100%;
+    display: block;
+ }
+
+ .bioPic {
+    width: 50%;
+    float: right;
+}
+
+
+ .bioImage {
+ 	width: 100%;
+ }
+
+.bioImage img {
+ 	float: left;
+display: block;
+ }
+
+.chefTitle {
+	width: calc(65% - 10px);
+	float: right;
+	padding-left: 10px;
+}
+
+.chefIcon {
+	width: 35%;
+	float: left;
+}
+
+.top, .bottom {
+	width: 45%;
+
+}
+
+.chefPicture {
+	float: left;
+	display: block;
+	width: 50%;
+}
+
+/*gallery*/
+
+.gallery {
+	background: #13223a;
+}
+
+
+.galleryTop {
+	width: 100%;
+
+}
+
+.galleryWrapper {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+.galleryTop ul li {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.galleryBottom {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+}
+
+.galleryBottom img {
+	max-width: 100%;
+	width: 20%;
+	padding: 0px;
+}
+/*Gallery End*/
+
+/*Service Begin*/
+.serviceHeader {
+	color: #23292c;
+}
+
+.serviceBottom {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+
+
+.serviceWrapper {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.serviceBox {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	color: #e1560e;
+	padding: 20px;
+}
+
+.serviceBox img {
+	max-width: 100%;
+}
+
+
+
+
+/*menu*/
+
+.menu {
+	background-image: url(assets/image-13.jpeg);
+	background-size: cover;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: #23292c;
+}
+
