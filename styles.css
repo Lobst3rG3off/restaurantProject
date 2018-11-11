@@ -356,3 +356,23 @@ h3 {
     ". . . . . . . . . . . . . . . . . . . . "
 }
 
+/*contact footer*/
+
+.contact {
+background: #23292c;
+}
+
+.contactWrapper {
+		width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.contactTop {
+	background-image: url(assets/Icons/map.png);
+	max-width: 100%;
+}
