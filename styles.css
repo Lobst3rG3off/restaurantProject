@@ -10,8 +10,16 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 }
 /*global effects*/
 
+html {
+    font-size: 62.5%;
+}
+
+
+    
+
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6rem;
 }
 
 
@@ -23,6 +31,7 @@ h2 {
 	font-family: 'Great Vibes', cursive;
 	color: white;
 	letter-spacing: 2px;
+	font-weight: 700 bolder;
 }
 
 
@@ -161,9 +170,7 @@ img {
 }
 
 
-#about .flex-container {
-	
-}
+
  
 
 #about {
@@ -257,7 +264,6 @@ display: block;
 	flex-direction: row;
 	flex-wrap: wrap;
 	text-align: center;
-
 }
 
 .galleryBottom img {
@@ -312,12 +318,15 @@ h3 {
 /*menu*/
 
 .menuWrapper{
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 20px;
-	display: flex;
-    flex-direction: row;
+	
+	position: absolute;
+	background-color: #031720;
+	opacity: 0.4;
+	height: 100%;
 }
 
 .menu {
@@ -325,7 +334,24 @@ h3 {
 	background-size: cover;
 	height: 100vh;
 	margin: 0 auto;
-	background-color: #23292c;
+	text-align: center;
+	position: relative;
+}
+
+.menu h2 {
+
+	font-weight: 500;
+	/* display: flex;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	margin: o auto; */
+}
+
+.menuBox {
+	display: flex;
+	flex-direction: row;
+	font-size: 10px;
 }
 
 .article
@@ -352,8 +378,13 @@ h3 {
     content:
     ". . . . . . . . . . . . . . . . . . . . "
     ". . . . . . . . . . . . . . . . . . . . "
-    ". . . . . . . . . . . . . . . . . . . . "
-    ". . . . . . . . . . . . . . . . . . . . "
+}
+
+
+
+
+.italic {
+	font-style: italic;
 }
 
 /*contact footer*/
@@ -373,6 +404,14 @@ background: #23292c;
 }
 
 .contactTop {
-	background-image: url(assets/Icons/map.png);
+	width: 100%;
 	max-width: 100%;
+	position: relative;
+}
+
+form {
+	position: absolute;
+	margin: 0 auto;
+	/* top:;
+	bottom: ; */
 }
