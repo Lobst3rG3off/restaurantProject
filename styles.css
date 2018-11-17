@@ -43,7 +43,7 @@ nav {
 
 .navLinks ul li a {
 	display: flex;
-	flex-direction: column; 
+	flex-direction: column;
 	text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ ul li {
     flex: 1 1 auto;
     align-self: auto;
 	}
-	
+
 
 
 
@@ -118,7 +118,7 @@ ul li {
 img {
 	max-width: 100%;
 }
- 
+
 .hero {
 	background-image: url(assets/image-1.jpeg);
 	background-size: cover;
@@ -147,7 +147,7 @@ img {
 
 .button {
 	font-size:19px;
-	font-weight:  700;  
+	font-weight:  700;
 	color: #333333;
 	background-color: #e1560e;
 	border-radius: 5px;
@@ -171,7 +171,7 @@ img {
 
 
 
- 
+
 
 #about {
 	    height: 529px;
@@ -263,12 +263,13 @@ display: block;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	text-align: center;
+  text-align: center;
 }
 
 .galleryBottom img {
 	max-width: 100%;
-	width: calc(100% / 5 - 10px);
+  height: 100%;
+	width: calc(100% / 5 - 4px);
 	padding: 0px;
 }
 /*Gallery End*/
@@ -284,7 +285,7 @@ display: block;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	
+
 }
 
 
@@ -373,7 +374,7 @@ h3 {
 {
     display: block;
     white-space: nowrap;
-    overflow: hidden;  
+    overflow: hidden;
     text-overflow: clip;
     content:
     ". . . . . . . . . . . . . . . . . . . . "
